@@ -1,10 +1,10 @@
 # Almoxarifado-Bajampa
 ## Programa destinado para organização de almoxarifados em geral.
-A aplicação deve permitir que o usuário insira vários Colaboradores de diferentes níveis de acesso, podendo ir desde apenas visualização dos itens presentes no almoxarifado até a adição de novos itens, remoção de itens ou ate mesmo cadastro de novos colaboradores.
+A aplicação deve permitir que o usuário insira vários Colaboradores de diferentes níveis de acesso, podendo ir desde apenas visualização dos itens presentes no almoxarifado até a adição de novos itens, remoção de itens ou até mesmo cadastro de novos colaboradores.
 
 ### Instalação
 
-Extrair arquivos, mover pasta **almoxarifado** para a pasta do **QT**, ao executar o programa será criada uma pasta **build** onde devesse colar a pasta **db** presente na pasta **almoxarifado** para a pasta **build/debug**.
+Extrair arquivos, mover pasta **almoxarifado** para a pasta do **QT**, ao executar o programa será criada uma pasta **build** onde deve se colar a pasta **db** presente na pasta **almoxarifado** para a pasta **build/debug**.
 
 **Local da pasta db**
 
@@ -33,17 +33,17 @@ senha - 123
 
 # Manual do Usuário
 
-Ao logar será informado qual nível de acesso da conta inserida, apartir disso será possível as seguintes opções:
+Ao logar será informado ao usuário qual seu nível de acesso, a partir daí serão possíveis as seguintes opções:
 
 **Nível de Acesso**
 
 ![](imgs/nivel_acesso.png)
 
-Caso o usuário possua nivel de acesso **C**, poderá ir apenas para *Lista de Itens*, onde ver-se todas as informações do item, desde seu nome ate data/hora de entrada, clicando nas abas é possível ordenar os itens!
+Caso o usuário possua nível de acesso **C**, poderá ir apenas para *Lista de Itens*, onde verá todas as informações do item, desde seu nome até data/hora de entrada e clicando nas abas é possível ordenar os itens!
 
 ![](imgs/lista_itens.png)
 
-Caso o usuário possua nivel de acesso **B**, poderá abrir a aba *estoque*, desta forma inserir um novo item ou alterar a sua quantidade na aba *gestão produtos*
+Caso o usuário possua nível de acesso **B**, poderá abrir a aba *estoque*, desta forma inserir um novo item ou alterar a sua quantidade na aba *gestão produtos*
 
 **Inserindo novo item**
 
@@ -54,7 +54,7 @@ Caso o usuário possua nivel de acesso **B**, poderá abrir a aba *estoque*, des
 ![](imgs/gerenciar_itens.png)
 
 
-O usuário de acesso **A** além das demais funções liberadas possui também a possibilidade de alterar quaisquer características do item, e adcionar/remover um colaborador, ou alterar o nivel de acesso do colaborador
+O usuário de acesso **A** além das demais funções liberadas possui também a possibilidade de alterar qualquer característica do item,  adcionar/remover um colaborador ou alterar o nível de acesso do colaborador
 
 **Adicionando um novo colaborador**
 
@@ -64,7 +64,7 @@ O usuário de acesso **A** além das demais funções liberadas possui também a
 
 ![](imgs/gestao_colab.png)
 
-Caso algum usuário sem a permissão para tal função  tente executa-la irá ser exibida uma informação **acesso não permitido**
+Caso algum usuário sem a permissão para tal função tente executa-la será exibida a informação **acesso não permitido**
 
 ![](imgs/acesso_npermitido.png)
 
