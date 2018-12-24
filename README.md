@@ -66,9 +66,7 @@ O usuário de acesso **A** além das demais funções liberadas possui também a
 
 Caso algum usuário sem a permissão para tal função  tente executa-la irá ser exibida uma informação **acesso não permitido**
 
-![](imgs/![](imgs/acesso_npermitido.png)
-
-
+![](imgs/acesso_npermitido.png)
 
 
 
