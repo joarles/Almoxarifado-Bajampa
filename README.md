@@ -1,6 +1,6 @@
 # Almoxarifado-Bajampa
 ## Programa destinado para organização de almoxarifados em geral.
-A aplicação deve permitir que o usuário insira vários Colaboradores de diferentes níveis de acesso, cada nível podendo ir desde apenas visualização dos itens presentes no almoxarifado até a adição de novos itens, remoção de itens ou ate mesmo cadastro de novos colaboradores.
+A aplicação deve permitir que o usuário insira vários Colaboradores de diferentes níveis de acesso, podendo ir desde apenas visualização dos itens presentes no almoxarifado até a adição de novos itens, remoção de itens ou ate mesmo cadastro de novos colaboradores.
 
 ### Instalação
 
@@ -67,6 +67,38 @@ O usuário de acesso **A** além das demais funções liberadas possui também a
 Caso algum usuário sem a permissão para tal função  tente executa-la irá ser exibida uma informação **acesso não permitido**
 
 ![](imgs/acesso_npermitido.png)
+
+### Informações
+
+A comunição do QT com o SQLite  é feita através da função *prepare*, utilizando dos parâmetros **insert**, **update**, **delete**, **select** para informar o que fazer com os dados.
+
+**Parâmetro Insert**
+
+Utilizado para inserir todos os dados na tabela.
+
+![](imgs/query_insert.png)
+
+**Parâmetro Update**
+
+Utilizado para atualizar a tabela sempre que ocorrer alguma alteração.
+
+![](imgs/query_update.png)
+
+**Parâmetro delete**
+
+Utilizado para excluir um item da tabela inserida no SQLite
+
+![](imgs/query_delete.png)
+
+**Parâmetro Select**
+
+Utilizado para carregar os dados do SQL para o QT.
+
+![](imgs/query_select.png)
+
+### Obrigado por utilizar o Almoxarifado Bajampa!
+
+
 
 
 
