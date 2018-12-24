@@ -43,7 +43,7 @@ Caso o usuário possua nível de acesso **C**, poderá ir apenas para *Lista de 
 
 ![](imgs/lista_itens.png)
 
-Caso o usuário possua nível de acesso **B**, poderá abrir a aba *estoque*, desta forma inserir um novo item ou alterar a sua quantidade na aba *gestão produtos*
+Caso o usuário possua nível de acesso **B**, poderá abrir a aba *estoque*, desta forma inserir um novo item ou alterar a sua quantidade na aba *gestão produtos*.
 
 **Inserindo novo item**
 
@@ -54,7 +54,7 @@ Caso o usuário possua nível de acesso **B**, poderá abrir a aba *estoque*, de
 ![](imgs/gerenciar_itens.png)
 
 
-O usuário de acesso **A** além das demais funções liberadas possui também a possibilidade de alterar qualquer característica do item,  adcionar/remover um colaborador ou alterar o nível de acesso do colaborador
+O usuário de acesso **A** além das demais funções liberadas possui também a possibilidade de alterar qualquer característica do item,  adcionar/remover um colaborador ou alterar o nível de acesso do colaborador.
 
 **Adicionando um novo colaborador**
 
@@ -64,7 +64,7 @@ O usuário de acesso **A** além das demais funções liberadas possui também a
 
 ![](imgs/gestao_colab.png)
 
-Caso algum usuário sem a permissão para tal função tente executa-la será exibida a informação **acesso não permitido**
+Caso algum usuário sem a permissão para tal função tente executa-la será exibida a informação **acesso não permitido**.
 
 ![](imgs/acesso_npermitido.png)
 
@@ -86,7 +86,7 @@ Utilizado para atualizar a tabela sempre que ocorrer alguma alteração.
 
 **Parâmetro delete**
 
-Utilizado para excluir um item da tabela inserida no SQLite
+Utilizado para excluir um item da tabela inserida no SQLite.
 
 ![](imgs/query_delete.png)
 
